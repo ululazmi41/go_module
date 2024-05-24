@@ -8,11 +8,11 @@ import (
 // TestHelloName calls greetings.Hello with a name, checking
 // for a valid return value.
 func TestHelloName(t *testing.T) {
-	name := "Ulul Azmi"
+	name := "hello name"
 	want := regexp.MustCompile(`\b` + name + `\b`)
-	msg, err := Hello("Ulul Azmi")
+	msg, err := Hello("hello name")
 	if !want.MatchString(msg) || err != nil {
-		t.Fatalf(`Hello("Ulul Azmi") = %q, %v, want match for %#q, nil`, msg, err, want)
+		t.Fatalf(`Hello("hello name") = %q, %v, want match for %#q, nil`, msg, err, want)
 	}
 }
 
