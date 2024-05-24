@@ -4,6 +4,8 @@ This repository serves as a practical exploration of Go's official tutorial, foc
 
 Additionally, the repository also applies testing on the `greetings` module to ensure its functionality meets expectations.
 
+Link: [Tutorial: Create a Go module](https://go.dev/doc/tutorial/create-module)
+
 ## Highlights
 
 - Integration of the `greetings` module within the `hello` module.
