@@ -1,4 +1,4 @@
-# Go Tutorial - Create a Module
+# Go Tutorial - Create a Go Module
 
 This repository serves as a practical exploration of Go's official tutorial, focusing on creating a module. The primary objective is to demonstrate the implementation of modules across separate files and directories. Specifically, the `hello/hello.go` module utilizes functionality from `greetings/greetings.go`.
 
